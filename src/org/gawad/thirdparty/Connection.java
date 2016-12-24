@@ -44,7 +44,7 @@ public class Connection {
                 jFrameMainApp.printResult(journey.getJourneyInfo().getArrivalCountry());
             }
         } else {
-            jFrameMainApp.printResult("Jornay: empty");
+            jFrameMainApp.printResult("Journey: empty");
         }
 
         } catch (MalformedURLException e) {
